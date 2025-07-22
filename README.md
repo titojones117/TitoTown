@@ -1,4 +1,4 @@
-<h1>Tito Town</h1>
+<h1 align="center">Tito Town</h1>
 <p align= "center">
   My <b>own</b> personal website.<br>
   My <b>own</b> little corner of the internet.<br>

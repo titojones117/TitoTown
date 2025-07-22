@@ -1,5 +1,5 @@
 # Tito Town
-<p style="align: center;">
+<p align= "center">
   My own personal website.<br>
   My own little corner of the internet.<br>
   Written (terrible) entirely in pure CSS, HTML and Javascript.<br>

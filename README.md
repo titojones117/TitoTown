@@ -1,4 +1,3 @@
-# TitoTown
-<h1>My own personal website.</h1>
-<h2>My own corner of the internet.</h2>
-<h3>Made entirely in HTML,CSS and JavaScript</h3>
+# Tito Town
+## My own personal website.
+## My own little corner of the internet.

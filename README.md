@@ -1,6 +1,6 @@
 # Tito Town
-My own personal website.
-My own little corner of the internet.
-Written (terrible) entirely in pure CSS, HTML and Javascript.
-Hosted on Neocities.
+My own personal website.<br>
+My own little corner of the internet.<br>
+Written (terrible) entirely in pure CSS, HTML and Javascript.<br>
+Hosted on Neocities.<br>
 https://titojones117.neocities.org/

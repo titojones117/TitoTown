@@ -148,12 +148,22 @@ button:hover, #displayimg:hover{
   text-decoration:none;
 }
 
-#cassette-img {
+#cassette_player_img {
   height: 768px;
   width: 100%;
   z-index: 1
 }
 
+#cassette-img-container{
+  position: absolute;
+  background-image: url(page_assets/cassette.png);
+  background-size: cover;
+  width: 59%;
+  height: 24%;
+  top: 46.7%;
+  border-radius: 4px;
+  z-index: 1;
+}
 #cassette-container{
   position: relative;
   margin:auto;

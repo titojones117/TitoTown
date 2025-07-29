@@ -1,19 +1,20 @@
 const playlist = [
-  "music/playlist/Rilkean Heart.mp3",
-  "music/playlist/Broadcast - Tears In The Typing Pool [Demo] (Official Audio).mp3",
-  "music/playlist/Everywhere (2018 Remaster).mp3",
-  "music/playlist/Hazey Jane II.mp3",
-  "music/playlist/Hope Sandoval and the Warm Inventions - Suzanne (Official Video) HD.mp3",
+  "music/playlist/Birthday Boy.mp3",
+  "music/playlist/Rilkean Heart.mp3", 
+  "music/playlist/Everywhere.mp3",
+  "music/playlist/Off Your Face.mp3",
   "music/playlist/I Remember.mp3",
-  "music/playlist/Julee Cruise Movinin on you (Lyrics).mp3",
+  "music/playlist/Movinin on you.mp3",
   "music/playlist/Little Spacey.mp3",
-  "music/playlist/New Order - Age of Consent (2020 Remaster) [Official Music Video].mp3",
-  "music/playlist/Place To Be.mp3",
+  "music/playlist/Age of Consent.mp3",
   "music/playlist/Sometimes.mp3",
-  "music/playlist/The Sundays - Heres Where The Story Ends (Official Music Video).mp3",
-  "music/playlist/The Sundays - Nothing Sweet.mp3",
+  "music/playlist/Heres Where The Story Ends.mp3",
+  "music/playlist/Nothing Sweet.mp3",
   "music/playlist/Your Selfish Ways.mp3",
-  "music/playlist/Tishbite.mp3"];
+  "music/playlist/Tishbite.mp3",
+  "music/playlist/Suzanne.mp3",
+  "music/playlist/Drive It All Over Me.mp3"
+];
 
 var currentSong = 0;
 

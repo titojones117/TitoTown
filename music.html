@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" style="background-image: url(page_assets/music-bg.gif);">
+  <head>
+    <title>Music</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="8-UTF">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <style>
+    p {
+      font-family:'Courier New', Courier, monospace;
+    }
+  </style>
+  <body>
+    <p style="color: rgb(11, 235, 37); font-size: 40px; font-family: papyrus;">This is my cassette player</p>
+    <div style="font-weight: bold; color: white;">
+      <p>Song:</p>
+      <p id="current-song-display"></p>
+      <p id="song-num"></p>
+    </div>
+    <div id="cassette-container"> 
+      <audio autoplay id="cassette-audio"><source src="music/playlist/Birthday Boy.mp3" type="audio/mp4"></audio>
+      <img src="page_assets/cassette-player.png" id="cassette_player_img">
+      <div id="cassette-img-container">&nbsp;</div>
+      <div id="play-song" onclick="playMusic()">&nbsp;</div>
+      <div id="prev-song" onclick="prev_song()">&nbsp;</div>
+      <div id="next-song" onclick="next_song()">&nbsp;</div>
+      <div id="pause-song" onclick="pauseMusic()">&nbsp;</div>
+    </div>
+    <a href="index.html"><img src="page_assets/home.png"></a>
+    <script src="music.js"></script>
+  </body>
+</html>

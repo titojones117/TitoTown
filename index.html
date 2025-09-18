@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" style="background-image: url(page_assets/MIE_PAV.jpg);">
+  <head>
+    <title>Javier Jacobo II</title>
+    <meta name = "viewport content=width-device-width, initial-scale = 1">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+  </head>
+
+  <script>
+    var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function(){
+      if(this.readyState == 4 && this.status == 200) {
+        var site_data = JSON.parse(this.responseText);
+        document.getElementById("hitcount").innerHTML = site_data.info.views;
+      }
+    };
+    xhttp.open("GET", "https://weirdscifi.ratiosemper.com/neocities.php?sitename=titojones117", true);
+    xhttp.send();
+  </script>
+
+  <body>
+    <audio autoplay loop><source src="audios/aboutme-song.mp3"></audio>
+    <p style="color: white;">you are visitor #<b><span id="hitcount"></span></b></p>
+    <div id="wrapper">
+      <header>
+        <img src="page_assets/logo.gif" alt="logo" style="width: 50%;">
+      </header>
+      <div id="content">
+        <img src="images/construction.gif">
+        <nav>
+          <ul style="font-weight: bold;">
+            <li><a href="index.html" id="my-links">Home</a></li>
+            <li><a href="aboutMe.html" id="my-links">About Me</a></li>
+            <li ><a href="photo.html" id="my-links">Photos</a></li>
+            <li style="list-style: url(page_assets/new.gif);"><a href="videos.html" id="my-links">Videos</a></li>
+            <li style="list-style: url(page_assets/new.gif);"><a href ="music.html" id="my-links">Music</a></li>
+            <li style="list-style: url(page_assets/new.gif);"><a href="404.html" id="my-links">Projects</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </body>
+</html>/

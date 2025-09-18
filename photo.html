@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <title>Photos</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="style.css">
+      <meta charset="UTF-8">
+  </head>
+  <body style="background: url(page_assets/photo-bg.jpg);">
+    <audio autoplay loop><source src="audios/song.mp3"></audio>
+    <p style="color: rgb(212, 231, 11); font-size: 40px; width: 100%; font-family: papyrus;">This is my camera.</p>
+    <p id="photo_num" style="color: white; font-size: 25px;font-family:'Courier New', Courier, monospace;"></p>
+    <div id="camera-container">
+      <div id="photo"></div>
+      <img src="page_assets/camera.png" id="camera-img" alt="Camera">
+      <div id="buttons" style="width: 50%; height: 100%;">
+        <button id="prev" onclick="image_prev()">&nbsp;</button>
+        <button id="enlarge" onclick ="image_large()">&nbsp;</button>
+        <button id="next" onclick="image_next()">&nbsp;</button>        
+      </div>
+    </div>
+    <a href="index.html"><img src="page_assets/home.png"></a>
+    <script src="script.js"></script>
+    <div id="display" onclick="image_close()"><img id=displayimg src="page_assets/blank.gif"></div>
+  </body>
+</html>

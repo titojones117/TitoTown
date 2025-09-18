@@ -1,0 +1,239 @@
+html {
+  margin: 0px;
+  cursor: url("page_assets/cursor1_imresizer.png"), auto;
+}
+header {
+  margin: 15px 0px;
+}
+
+img {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+
+a:hover {
+  cursor: url("page_assets/cursor2_imresizer.png"), auto;
+}
+
+body {
+  margin: 0;
+  padding: 0px;
+  font-size: 20px;
+  text-align: center;
+  align-content: center;
+  font-family: gaegu-r, ms pgothic, arial;
+}
+
+div {
+  display: block;
+  unicode-bidi: isolate;
+  box-sizing: border-box;
+}
+
+audio {
+  display: none;
+}
+
+ul {
+  text-align: center;
+  list-style-position: inside;
+  display: inline-block;
+  list-style: none;
+  line-height: 35px;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-size: 25px;
+}
+
+button {
+  font-family: gaegu-r, ms pgothic, arial;
+  font-size: 30px;
+}
+button:hover, #displayimg:hover{
+  cursor: url(page_assets/cursor2_imresizer.png), auto;
+}
+
+#wrapper{
+  position: relative;
+  top: 50%;
+  width: 73%;
+  height: auto;
+  margin: 0px auto;
+  background: url(page_assets/SKY1.png);
+  background-size: 100%;
+  border-style:double;
+  color: rgb(198, 41, 193);
+}
+
+.about-me{
+  background-color: rgb(135, 172, 128);
+  align-items: center;
+  position: relative;
+  left: 35%;
+  height: auto;
+  width: 30%;
+  border-style: double;
+}
+
+#content{
+  margin: 5px 30px;
+}
+
+#camera-container{
+  position: relative;
+  width: 700px;
+  margin: 30px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#camera-img{
+  width: 921.6px;
+  height: 691.2px;
+  z-index: 1
+}
+#photo{
+  position: absolute;
+  background-image: url(images/foto39.jpg);
+  background-size: cover;
+  background-position: center;
+  left: 31.4%;
+  top: 42.6%;
+  width: 45.1%;
+  height: 29.2%;
+  z-index: 2;
+  box-shadow: inset 0 0 3px 2px #000000;
+  border-radius: 5px;
+}
+
+#next, #prev, #enlarge {
+  width: 108px;
+  height: 68px;
+  color: transparent;
+  border-style: solid;
+  border-width: thick;
+}
+
+#next {
+  background-image: url(page_assets/next.png);
+  border-color: rgb(0, 255, 0);
+}
+
+#prev {
+  background-image: url(page_assets/prev.png);
+  border-color: red;
+}
+#enlarge {
+  background-image: url(page_assets/enlarge.png);
+  border-color: orange;
+}
+
+#next:active, #prev:active, #enlarge:active {
+  border-color: blue;
+}
+
+#display {
+  z-index: 9999;
+  position: fixed;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  top: 0;
+  width: 100%;
+}
+
+#my-links {
+  color: yellow;
+  text-decoration:none;
+}
+
+#cassette_player_img {
+  height: 768px;
+  width: 100%;
+  z-index: 1
+}
+
+#cassette-img-container{
+  opacity: 15%;
+  position: absolute;
+  background-image: url(page_assets/cassette.gif);
+  background-size: cover;
+  width: 54%;
+  left: 21.7%;
+  height: 19%;
+  top: 47.7%;
+  border-radius: 4px;
+  z-index: 1;
+}
+#cassette-container{
+  position: relative;
+  margin:auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  max-width: 576px;
+}
+
+#monitor-container{
+  position: relative;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  max-width: 768px;
+}
+#monitor-image{
+  z-index: 2;
+  height: 576px;
+  width: 768px;
+
+}
+#play-song,#next-song,#prev-song,#pause-song{
+  position: absolute;
+  z-index: 2;
+  top:82%;
+  width: 7%;
+  height: 9%;
+}
+#play-song{
+  left: 34.1%;
+  right: 60%;
+}
+#prev-song{
+  left: 42.5%
+}
+#next-song{
+  left: 50%;
+}
+#pause-song{
+  left: 67%;
+}
+#play-song:hover,#next-song:hover,#prev-song:hover,#pause-song:hover{
+  cursor: url(page_assets/cursor2_imresizer.png), auto;
+}
+#video-holder{
+  z-index: 1;
+  position: absolute;
+  width: 60%;
+  height: 61%;
+  left: 20%;
+  top: 18%;
+}
+
+#play-video{
+  background-color: blue;
+  opacity: 25%;
+  z-index: 4;
+  border-radius: 50px;
+  width: 35px;
+  height: 35px;
+  left: 64.5%;
+  top: 86.4%;
+  position: absolute;
+}
+
